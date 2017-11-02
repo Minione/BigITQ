@@ -1,7 +1,9 @@
 # BigITQ
-Distributed implementation of Iterative Quantization<sup>1</sup> over SPARK
+Distributed implementation of Iterative Quantization (ITQ)<sup>1</sup> over SPARK
 
-A report on this work is avaiable now: [pdf](https://github.com/rohitgirdhar/BigITQ/raw/master/report.pdf)
+ITQ is a powerful approximate nearest neighbor search technique for large-scale image retrieval. ITQ can map high-dimensional float image features to low-dimensional binary codes, where Hamming Distance is employed as the distance metric. Since Hamming distance computation is extremely fast, this enables efficient search over large database.
+
+This repository contains the code of our distributed implementation of ITQ. A report on this work is avaiable now: [pdf](https://github.com/rohitgirdhar/BigITQ/raw/master/report.pdf)
 
 ## Running the Code
 
